@@ -1,0 +1,32 @@
+{
+  "name": "cadastrologin",
+  "version": "1.0.0",
+  "description": "cadastro e login com node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduNetoCrT/cadastroLogin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduNetoCrT/cadastroLogin/issues"
+  },
+  "homepage": "https://github.com/EduNetoCrT/cadastroLogin#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mogoose": "^0.0.1-security",
+    "mongoose": "^6.3.6"
+  }
+}
